@@ -13,6 +13,7 @@ body {
 }
 
 #card {
+    min-width: 340px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -25,6 +26,10 @@ body {
     background: linear-gradient(90deg, rgba(163,66,66,1) 0%, rgba(1,255,188,1) 100%);
     box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.4);
     user-select: none;
+}
+
+p {
+    
 }
 
 strong {
