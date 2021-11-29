@@ -13,6 +13,7 @@ body {
 }
 
 #card {
+    min-width: 290px;
     min-width: 340px;
     justify-content: center;
     display: flex;
@@ -29,7 +30,13 @@ body {
 }
 
 p {
-    
+    position: absolute;
+    bottom: 36%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(163,66,66,1);
 }
 
 strong {
