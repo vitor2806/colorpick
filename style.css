@@ -10,3 +10,26 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    width: 25%;
+    height: 30%;
+    background: linear-gradient(90deg, rgba(163,66,66,1) 0%, rgba(1,255,188,1) 100%);
+}
+
+strong {
+    font-size: 50px;
+    color: rgba(163,66,66,1);
+}
+
+input {
+    background-color: black;
+    border: none;
+}
